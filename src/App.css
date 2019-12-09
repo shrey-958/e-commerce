@@ -1,0 +1,262 @@
+.App {
+text-align: center;
+  
+}
+body{
+  background-color: rgb(188, 228, 222) ;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.template{
+
+  
+  display: inline-block;
+  
+  height : 60vh;
+  width : 20vw;
+  margin-left: 2%;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow:7px 4px 6px rgb(35, 75, 112) ;
+
+}
+.title{
+  text-align: center;
+  font-size: 140%;
+  font-weight: bold;
+  margin: 5%;
+}
+img{
+ margin-top: 5%;
+ 
+
+  height:55%;
+  width:55%;
+}
+hr{
+  width: 90%;
+  background: black;
+}
+.lower{
+  display: inline-block;
+  position: relative;
+  
+  text-align: right;
+  width: 100%;
+  
+}
+button{
+  padding: 4%;
+  
+}
+button:hover {
+  cursor : pointer ;
+  
+}
+
+button:active {
+  
+  
+  transform: translateY(4px);
+}
+.comp{
+  
+  float: left;
+  margin-left: 10%;
+  background-color: rgb(255, 224, 202) ;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #34862d;
+  /*box-shadow: 6px 4px 4px rgb(65, 66, 65);*/
+  
+ 
+  
+  
+}
+.remove{
+  
+  float: left;
+  margin-left: 10%;
+  background-color: rgb(255, 224, 202) ;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #9c130e;
+  /*box-shadow: 6px 4px 4px rgb(65, 66, 65);*/
+  
+ 
+  
+  
+}
+button .compyes{
+  
+  color: #0b4706;
+  font-weight: bolder;
+}
+button .compno{
+  color: #9c130e;
+  font-weight: bolder;
+}
+.buy{
+  float: right;
+  margin-right: 10%;
+  background-color: rgb(21, 51, 116) ;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+ 
+}
+.price{
+  font-size: 110%;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #b41932;
+}
+nav{
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #130e42;
+  height: 4.6vw;
+
+}
+.logo{
+  margin-top: 0;
+  height:60%;
+  width : 3.1%;
+  margin-left: 30%;
+}
+.buyno{
+  float: right;
+  margin-right: 10%;
+  background-color: rgb(255, 96, 5) ;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+ 
+}
+.optswitchon{
+ text-align: center;
+  color: white;
+  height: 58%;
+  width: 10%;
+  display: inline-block;
+  padding-top: 1%;
+  font-size: 120%;
+  font-weight: bold;
+  transition-timing-function: ease;
+  
+}
+.optswitchon:hover{
+  cursor: pointer;
+  font-size: 140%;
+  font-weight: bold;
+  color: rgb(253, 84, 112);
+
+}
+.optswitchoff{
+  text-align: center;
+  color: rgb(255, 230, 0);
+  height: 58%;
+  width: 10%;
+  display: inline-block;
+  padding-top: 0.5%;
+  font-size: 160%;
+  font-weight: bold;
+  transition-timing-function: ease;
+
+}
+.optswitchoff:hover{
+  cursor: pointer;
+  font-size: 140%;
+  font-weight: bold;
+  color: rgb(253, 84, 112);
+
+}
+.cart1{
+  position: relative;
+  z-index: 3;
+  margin-top: -50%;
+  
+  width: 40%;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(197, 88, 197,0.8);
+  border-radius: 25px 80px;
+  opacity: 1;
+}
+.cart2{
+  position: relative;
+  z-index: 3;
+  margin-top: -35%;
+  
+  width: 40%;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(197, 88, 197,0.8);
+  border-radius: 25px 80px;
+  opacity: 1;
+}
+.cart{
+  margin-right: 4%;
+  margin-top: 2%;
+  font-size: 140%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  
+}
+.cart-head{
+  font-size: 140%;
+  font-family:  sans-serif;
+}
+.empty{
+  margin-top: auto;
+  text-align: center;
+  font-size: 300%;
+  font-family: Courier, monospace;
+}
+
+ul{
+ list-style-type: circle;
+}
+
+  
+  

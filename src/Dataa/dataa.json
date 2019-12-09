@@ -1,0 +1,52 @@
+{
+    "posts": [
+      {
+          
+        "id": 1,
+        "title": "iPhone 7",
+"price" : "Rs. 47,900",
+"battery" : "1960 mAh",
+"display" : "4.7 inches",
+"ram" : "2 GB",
+      "add" : "https://www.91-img.com/gallery_images_uploads/7/9/79c86adb5a89b6ad0f0addaa4ac2d073802afe08.jpg?tr=h-550,w-0,c-at_max",
+"compare" : false,
+"buy" : false	
+    },
+    {
+      
+        "id": 2,
+        "title": "iPhone 8",
+"price" : "Rs. 59,900",
+"battery" : "1822 mAh",
+"display" : "4.7 inches",
+"ram" : "2 GB",
+        "add" : "https://www.91-img.com/gallery_images_uploads/6/0/605a28af16170abd359fe8094b60dbce804a6107.jpg?tr=h-550,w-0,c-at_max",
+"compare" : false,
+"buy" : false	
+    },
+    {
+      
+        "id": 3,
+        "title": "iPhone X",
+"price" : "Rs. 64,405",
+"battery" : "2716 mAh",
+"display" : "5.8 inches",
+"ram" : "3 GB",
+        "add" : "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large.jpg",
+"compare" : false,
+"buy" : false	
+    },
+    {
+      
+        "id": 4,
+        "title": "iPhone 11",
+"price" : "Rs. 68,400",
+"battery" : "3110 mAh",
+"display" : "6.1 inches",
+"ram" : "4 GB",
+         "add" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1566960958082",
+"compare" : false,
+"buy" : false	
+    }
+    ]
+  }
